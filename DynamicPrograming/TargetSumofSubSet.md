@@ -1,0 +1,3 @@
+Given an array of n integers (non-negative), and a target value tar, you need to check whether a subset of the array whose sum of elements is equal to the target tar exists or not.
+Please recall that a subset (or subsequence) of an array is taking zero or more elements from the array (in the same order in which they occur in the array).
+Here, you need to just print true or false whether such a target sum subset exists or not. You do not need to print the subset.

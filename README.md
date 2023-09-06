@@ -1,1 +1,2 @@
-# DataStructureAndAlgorithm all the Question read from pepcoding and leetcode 
+# DataStructureAndAlgorithm 
+## All the Questions read from https://www.pepcoding.com/resources/ and leetcode 
