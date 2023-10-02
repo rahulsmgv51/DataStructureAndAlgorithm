@@ -9,7 +9,8 @@ class Main{
     }
 
     public static void fun2(){ // static member function
-        System.out.println("Hello, I am Static member Function");
+        y = 6; // We only change static member variable value in static method
+        System.out.println(y+"  Hello, I am Static member Function");
     }
     static class StaticInnerClass{
         public static String Name = "RAHUL";
@@ -24,6 +25,6 @@ public class StaticMain{
         obj2.x = 3;
         Main.fun2();
         Main.StaticInnerClass.Name = "R K V";
-        System.out.println(Main.StaticInnerClass.Name);
+        System.out.println(Main.StaticInnerClass.Name + "  "+ Main.y);
     }
 }
