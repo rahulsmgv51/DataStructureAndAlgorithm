@@ -15,3 +15,6 @@ Collection is an interface and Collections is a class.
 5. Null insertion is possible.
 6. Heterogeneous object are allowed.
 7. Except Treeset and Treemap Heterogeneous object are not allowed.
+8. Create an empty ArrayList object with default initial capacity "10" if ArrayList reaches its max capacity then a new ArrayList object will be created with 
+        NewCapacity={(current capacity*3)/2}+1
+
