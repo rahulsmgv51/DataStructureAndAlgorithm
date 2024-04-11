@@ -1,2 +1,1 @@
-# DataStructureAndAlgorithm 
-## All the Questions read from https://www.pepcoding.com/resources/ and leetcode 
+### Java Basic concept and its implemantation by using DataStructureAndAlgorithm 
