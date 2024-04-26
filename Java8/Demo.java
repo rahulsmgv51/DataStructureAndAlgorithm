@@ -1,8 +1,10 @@
 package Java8;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Scanner;
+import java.util.Set;
 
 
 
@@ -77,10 +79,18 @@ public class Demo {
     }
 
     public static void main(String[] args) {
-        double x = 2.00000;
-        int n = -2;
-        int p = 1;
-        System.out.println(myPow(n<0?1/x: x, Math.abs(n), p));
+        Set s = new HashSet();
+        s.add(new Long(10));
+        s.add(new Integer(10));
+
+        for (Object object : s) {
+            System.out.println("test - "+ object);
+        }
+
+        // double x = 2.00000;
+        // int n = -2;
+        // int p = 1;
+        // System.out.println(myPow(n<0?1/x: x, Math.abs(n), p));
         // int x =10;
         // myFun();
         // int[][] matrix = new int[3][2];
