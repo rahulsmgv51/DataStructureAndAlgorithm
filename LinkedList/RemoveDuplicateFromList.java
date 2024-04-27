@@ -13,25 +13,37 @@ class Node {
 
 public class RemoveDuplicateFromList {
     public static Node removeDuplicatNode(Node head) {
-        Node temp = head;
-        Node Original = head;
-        Node newHead = null;
-
-        while (Original != null) {
-            while (Original.next != null && Original.data == Original.next.data) {
-                Original = Original.next;
+        Node curr = head;
+        while (curr != null && curr.next != null) {
+            if (curr.data == curr.next.data) {
+                curr.next = curr.next.next;
             }
-            if (newHead == null) {
-                newHead = temp = Original;
-            }else{
-                temp.next = Original;
-                temp = Original;
+            else{
+                curr = curr.next;
             }
-            Original = Original.next;
         }
-
-        return newHead;
+        return head;
     }
+    // public static Node removeDuplicatNode(Node head) {
+    //     Node temp = head;
+    //     Node Original = head;
+    //     Node newHead = null;
+
+    //     while (Original != null) {
+    //         while (Original.next != null && Original.data == Original.next.data) {
+    //             Original = Original.next;
+    //         }
+    //         if (newHead == null) {
+    //             newHead = temp = Original;
+    //         }else{
+    //             temp.next = Original;
+    //             temp = Original;
+    //         }
+    //         Original = Original.next;
+    //     }
+
+    //     return newHead;
+    // }
 
     public static void printLinkedList(Node head) {
         Node temp = head;
