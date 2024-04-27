@@ -31,7 +31,7 @@ public class MyLinkedListClass {
 
             while (tmpNode != null) {
                 System.out.println(tmpNode.data+" ");
-                head = tmpNode.next;
+                tmpNode = tmpNode.next;
             }
         }
     }
