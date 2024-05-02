@@ -16,24 +16,51 @@ public class ReverseA_LinkedList {
             head = head.next;
         }
     }
+    // Using Recursion
+    // public static Node reverseLinkedList(Node head) {
+    // if(head == null || head.next == null){
+    // return head;
+    // }
+    // Node headOfSubProblem = reverseLinkedList(head.next);
+    // head.next.next = head;
+    // head.next = null;
+
+    // return headOfSubProblem
+    // }
 
     public static Node reverseLinkedList(Node head) {
-        if (head == null || head.next == null)
+        if (head == null || head.next == null) {
             return head;
-        
-        Node newHead = null;
-        while (head != null) {
-            Node temp = new Node(head.data);
-            if (newHead == null) {
-                newHead = temp;
-            } else {
-                temp.next = newHead;
-            }
-            newHead = temp;
-            head = head.next;
         }
-        return newHead;
+        Node prev = head;
+        Node curr = head.next;
+        head.next = null;
+        while (curr != null) {
+            Node next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        return prev;
     }
+
+    // public static Node reverseLinkedList(Node head) {
+    // if (head == null || head.next == null)
+    // return head;
+
+    // Node newHead = null;
+    // while (head != null) {
+    // Node temp = new Node(head.data);
+    // if (newHead == null) {
+    // newHead = temp;
+    // } else {
+    // temp.next = newHead;
+    // }
+    // newHead = temp;
+    // head = head.next;
+    // }
+    // return newHead;
+    // }
 
     public static void main(String[] args) {
         Node head = new Node(1);

@@ -40,3 +40,6 @@ Stack is a simple linear data structure used for storing data. Stack follows the
 4. Not suitable for certain applications: Stack data structure is not suitable for applications that require accessing elements in the middle of the stack, like searching or sorting algorithms.
 4. Stack overflow and underflow: Stack data structure can result in stack overflow if too many elements are pushed onto the stack, and it can result in stack underflow if too many elements are popped from the stack.
 5. Recursive function calls limitations: While stack data structure supports recursive function calls, too many recursive function calls can lead to stack overflow, resulting in the termination of the program.
+
+## Basic Operations of Stack
+1. push , pop IsEmpty, IsFull, Peek

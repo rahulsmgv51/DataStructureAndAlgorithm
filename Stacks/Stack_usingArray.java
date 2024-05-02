@@ -1,3 +1,5 @@
+package Stacks;
+
 class MyStack {
     int CAPACITY;
     int top;
@@ -39,12 +41,13 @@ class MyStack {
             return data;
         }
     }
-    boolean isEmpty(){
+
+    boolean isEmpty() {
         return top == -1;
     }
 
-    int size(){
-        return top+1;
+    int size() {
+        return top + 1;
     }
 
     void print() {
@@ -62,13 +65,13 @@ public class Stack_usingArray {
         s.push(20);
         s.push(30);
         s.push(40);
-        System.out.println("Check Stack is Empty or not "+ s.isEmpty());
+        System.out.println("Check Stack is Empty or not " + s.isEmpty());
         System.out.println("Top element is :" + s.peek());
         System.out.println(s.pop() + " Popped from stack");
         s.print();
-        System.out.println("Size of Stack "+ s.size());
+        System.out.println("Size of Stack " + s.size());
         // for(int i=0; i<s.a.length; i++){
-        //     System.out.println(s.a[i]);
+        // System.out.println(s.a[i]);
         // }
     }
 }
