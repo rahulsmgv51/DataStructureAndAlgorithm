@@ -43,7 +43,7 @@ public class MergeTwoSortedArray {
     }
 
     public static void main(String[] args) {
-        int arr[] = {1,3,5,7,9,2,4,6,8,10};
+        int arr[] = {1,1,1,1,1,3,5,7,9,2,2,2,2,2,4,6,8,10};
         int l = 0, h=arr.length;
         int m = (l+h)/2;
         merge(arr, 0, m, h);
