@@ -1,4 +1,4 @@
-package Opps.Keywords;
+package Opps.Keywords.final_keyword;
 
 // final class Bike{}
 

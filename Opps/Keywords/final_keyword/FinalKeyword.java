@@ -1,4 +1,4 @@
-package Opps.Keywords;
+package Opps.Keywords.final_keyword;
 
 class FinalKeyword {
     final int speedlimit = 90;// final variable
