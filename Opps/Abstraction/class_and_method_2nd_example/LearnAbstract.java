@@ -24,6 +24,11 @@ abstract class Animal {
     }
 }
 
+abstract class Pet{
+    abstract void nickname();
+}
+
+// We cannot extends Pet class with Dog class, because in abstract only on abstract class can extends
 class Dog extends Animal {
 
     /*
