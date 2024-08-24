@@ -11,3 +11,4 @@
 ### Abstraction
 1. Abstraction is an important concept of object-oriented programming that allows us to hide unnecessary details and only show the needed infromation.
 this allows us to manage complexity by omitting or hiding details with a simpler higher-level idea.
+2. We cannot extends multiple abtract class.
