@@ -7,3 +7,5 @@ a. A superclass that an anonymous class extends
 b. An interface that an anonymous class implements 
 
 4. Anonymous class object create only once and also use only once.
+
+5. Anonymous class basicaly use in creating comparator.
