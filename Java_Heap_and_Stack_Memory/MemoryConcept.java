@@ -1,14 +1,14 @@
 package Java_Heap_and_Stack_Memory;
 
 public class MemoryConcept {
-    public static void main(String[] args) { // Line 1
-        int i = 1; // Line 2
-        Object obj = new Object(); // Line 3
-        MemoryConcept mem = new MemoryConcept(); // Line 4
-        mem.foo(obj); // Line 5
-    } // Line 9
-    private void foo(Object param) { // Line 6
-        String str = param.toString(); // Line 7
+    public static void main(String[] args) {
+        int i = 1; // i value store in stack
+        Object obj = new Object(); // object reference store in stack and create in heap memory. and call from anywhere if its reference are store.
+        MemoryConcept mem = new MemoryConcept();
+        mem.foo(obj); // 
+    }
+    private void foo(Object param) {
+        String str = param.toString(); // String are store in string pool area and which is store in heap area.
         System.out.println(str);
-    }// Line 8
+    }
 }
