@@ -7,6 +7,7 @@ public class GenericMethods {
 
         //Call by creating object because  doubleMethods is not define as static
         GenericMethods obj = new GenericMethods();
+        // obj.doubleData(10);
         obj.doubleData("434");
     }
     //First we need to declare its type by using <E>
