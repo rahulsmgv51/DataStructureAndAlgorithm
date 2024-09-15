@@ -2,8 +2,8 @@ package Collection_Framewok;
 
 public class GenericMethods {
     public static void main(String[] args) {
-        printData("hello my name is rahul");
-        printData(123);
+        printData("Hello my name is RAHUL");
+        printData(10);
 
         //Call by creating object because  doubleMethods is not define as static
         GenericMethods obj = new GenericMethods();
