@@ -1,6 +1,8 @@
 ### Collection Framework 
 The Collections Framework provides a well designed aet of interfaces and classes for storing and manipulating groups of data as a single unit, a collection.
 
+![alt text](image.png)
+
 Collection is an interface and Collections is a class.
 
 ### List
