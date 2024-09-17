@@ -44,12 +44,29 @@ public class Comparable_Class {
 
         // });
 
-        // Lmbda expression
+        // Lambda expression
         // Collections.sort(persons, (o1, o2) -> o1.name.compareTo(o2.name));
 
         System.out.println(persons);
 
-        int arr[][] = { { 4, 5, 2 }, { 5, 1, 2 }, { 1, 4, 7 } };
+        int arr[][] = { 
+                        { 4, 5, 2 }, 
+                        { 5, 1, 2 }, 
+                        { 1, 4, 7 }
+                      };
+
+        // Sort the Array on the basis of first column element
+        /*
+        Arrays.sort(arr, new Comparator<int[]>() {
+            @Override
+            public int compare(int[] o1, int[] o2) {
+                return o1[0] - o2[0];
+            }
+            
+        });
+        */
+        
+        // above code write like below code by using lambda expression
         Arrays.sort(arr, (arr1, arr2) -> {
             return arr1[0] - arr2[0];
         });
