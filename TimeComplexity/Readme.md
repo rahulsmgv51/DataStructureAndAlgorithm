@@ -1,6 +1,8 @@
 ### Time Complexity
-1. BigO Notation  -->> uparbound (Wrost Case)
-2. Omega Notation -->> lowerbound (Best case)
+- The time complecity of an algorithm quantifies the amount of time taken by an algorithm to run as a function of the length of the input.
+1. Worst Case (O Notation(O))  -->> uparbound (Wrost Case)
+2. Average Case (Theta Notation (Θ))
+3. Best Case (Omega Notation (Ω)) -->> lowerbound (Best case)
 
 #### Time Constraints and Time Complexity
 Let n be the main variable in the problem.
@@ -15,5 +17,5 @@ Let n be the main variable in the problem.
 
 
 ### Space Complexity 
-The space complexity of an algorithm is the total space taken by the algorithm with respect to the input size. Space complexity includes both Auxiliary space and 
-The space complexity of an algorithm is the total space taken by the algorithm with respect to the input size. Space complexity includes both Auxiliary space and space used by input.
+1. The space complexity of an algorithm is the total space taken by the algorithm with respect to the input size. Space complexity includes both Auxiliary space and 
+2. The space complexity of an algorithm is the total space taken by the algorithm with respect to the input size. Space complexity includes both Auxiliary space and space used by input.

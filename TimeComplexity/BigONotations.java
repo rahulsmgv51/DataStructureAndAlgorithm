@@ -22,7 +22,7 @@ public class BigONotations {
         return false;
     }
     
-    // T(n) = n(n-1)/2
+    // T(n) = n(n-1)/2  -->> O(n^2)
     static void printAllPairsInAnArray(int a[]) {
         int n = a.length;
         for (int i = 0; i < n; i++) {
