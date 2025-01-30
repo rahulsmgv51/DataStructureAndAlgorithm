@@ -9,3 +9,6 @@ join
 
 ![alt text](image.png)
 * In The above diagram Runnable and Running both are same acc. to java.
+
+
+![alt text](image-1.png)
