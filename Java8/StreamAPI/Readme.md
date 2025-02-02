@@ -1,0 +1,2 @@
+## Stream API
+* Streams In Java 8, the Streams concept was introduced to process objects of collections efficiently. It provides a streamlined way to perform operations on collections such as filtering, mapping, and aggregating data.
