@@ -10,9 +10,12 @@ public class FindMinMax {
         arr[1] = 2;
         arr[0] = 1;
         Arrays.stream(arr1).peek(x -> System.out.println(x + "  -")).toArray(); */
-        int max = Arrays.stream(arr).max().getAsInt();
+        /* int max = Arrays.stream(arr).max().getAsInt();
         int min = Arrays.stream(arr).min().getAsInt();
         System.out.println("Min : "+min +", Max : "+ max);
-        Arrays.stream(arr).sorted().peek( x -> System.out.println(x)).toArray();
+        Arrays.stream(arr).sorted().peek( x -> System.out.println(x)).toArray(); */
+
+        int[] ar = {5,3,9,8,6,2,7};
+        Arrays.stream(ar).sorted().filter(x -> x%3 == 0).toArray();
     }
 }
